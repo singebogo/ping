@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ping - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP234B.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/ping.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Document\Document\vc\ping\ping\ping.cpp"
+"D:\Document\Document\vc\ping\ping\ping1.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP234B.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP235C.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/ping.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Document\Document\vc\ping\ping\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP235C.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP235D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/ping.pdb" /machine:I386 /out:"Release/ping.exe" 
+.\Release\ping.obj
+.\Release\ping1.obj
+.\Release\StdAfx.obj
+]
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP235D.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ping.cpp
+ping1.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ping.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
